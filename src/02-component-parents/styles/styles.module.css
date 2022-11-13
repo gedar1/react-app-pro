@@ -41,8 +41,8 @@
 .countLabel {
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-    font-size: 16px;
-    height: 25px;
+    font-size: 20px;
+    background-color: transparent;
     padding-top: 5px;
     text-align: center;
     width: 30px;
