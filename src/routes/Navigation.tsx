@@ -1,10 +1,15 @@
+
 import { BrowserRouter } from "react-router-dom";
+
 import {Routes,Route,NavLink,Navigate} from "react-router-dom"
 import { ShoppingPage } from "../02-component-parents/pages/ShoppingPage";
+
+
 
 import logo from "../logo.svg"
 
 export const Navigation = () => {
+
   return (
     <BrowserRouter>
         <div className="main-layout">
@@ -31,8 +36,7 @@ export const Navigation = () => {
                 {/* <Route path='/*' element={<Navigate to='/home' replace/>}/> */}
             </Routes>
 
-        </div>
-       
-    </BrowserRouter>
-  )
+
+            </BrowserRouter>
+      
 }
