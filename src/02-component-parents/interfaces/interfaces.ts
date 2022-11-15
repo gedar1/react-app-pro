@@ -27,3 +27,12 @@ import { Props as productCardButtonsProps } from '../components/ProductButtons';
   
     
   }
+
+  export interface onChangesArgs{
+    product:Product;
+    count:number;
+  }
+
+  export interface ProductInCart extends Product{
+    count: number;
+  }
